@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Resume Display </title>
+    <style>
+        main_template {
+            justify-content: center;
+        }
+
+        body {
+            padding: 0.5%;
+        }
+
+        .resume {
+            font-family: sans-serif;
+            justify-content: center;
+            background-color: lightblue;
+            margin-top: 5px;
+            padding: 9px;
+        }
+
+        h3 {
+            font-family: sans-serif;
+        }
+
+        hr.down_line {
+            border-radius: 5px;
+            border: 7px solid lightsteelblue;
+        }
+
+        .address {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .font{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .main_template {}
+
+        .summary_description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        .summary_heading {
+            justify-content: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 5px;
+        }
+
+        .name {
+            justify-content: center;
+        }
+
+
+
+        .push_to_right {
+            display: inline;
+            margin-left: 100px;
+            margin-bottom: 50px;
+        }
+
+        .skills_heading {
+            margin-left: 5px;
+        }
+
+        .skill_description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 20px;
+        }
+
+        .singlecolumn {
+            margin-left: 20px;
+        }
+
+        .jobtitle {
+            text-decoration: bold;
+
+        }
+
+        .first {
+            margin-left: 20px;
+        }
+
+        .ed_description {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 20px;
+        }
+        img{
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h2 class="resume">
+            Resume
+        </h2>
+    </center>
+
+    <div class="main_template">
+        
+        <div class="name">
+            <center>
+                <h3>Fictional Name</h3>
+            </center>
+            <hr class="down_line">
+            <center>
+                <img src="passport_photo.png" alt="" width="128" height="128">
+            </center>
+        </div>
+        <center>
+            <div class="address">
+                <p>Karminagar District • Hyderabad India • 500501</p>
+            </div>
+        </center>
+
+        <div class="summary">
+            <h2 class="summary_heading">Professional Summary</h2>
+            <p class="summary_description">
+                Diligent Accounting Honors student (3.7/4.0 GPA) from Florida State University with proven research and
+                communication skills.
+                <br> Interned at Viva Microfunds where I examined the financial health of ten small
+                businesses to decide on their loan eligibility. <br> Seeking a junior banker position to expand my
+                business
+                acumen.
+            </p>
+        </div>
+
+        <div class="skills">
+            <h2 class="summary_heading">Skills</h2>
+            <div class="skill_description">
+                <ul>
+                    <div class="row">
+                        <div class="col-6">
+                            <li>Java</li>
+                            <li>C Language</li>
+                            <li>Databases</li>
+                        </div>
+                        <div class="col-6">
+                            <li>Problem Solving</li>
+                            <li>Python</li>
+                            <li>Javascript</li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="work font">
+            <h2 class="summary_heading">Work History</h2>
+            <div class="singlecolumn">
+                <span class="" dependency="JTIT" style="display: inline;">
+                    <span class="jobtitle" id="FIELD_JTIT"><b>Senior Sales Associate</b></span><span>, </span>
+                </span><span class="" dependency="" style="display: inline;">
+                    <span class="" id="" format="%m/%Y">03/2015</span><span dependency="JSTD+EDDT"> to
+                    </span><span class="" id="" format="%m/%Y">Current</span><br dependency="">
+                </span>
+                <span class="" dependency="">
+                    <span class="" id=""><b>Bed Bath &amp; Beyond, Inc.</b></span><span dependency=""><span
+                            dependency=""> – </span></span><span class=" " id="">San Francisco</span><span
+                        dependency="">, </span><span class="" id="">CA</span><span class="" id="FIELD_JCNT"></span><br
+                        dependency="">
+                </span>
+                <span class="jobline" id="">
+                    <ul>
+                        <li>Applied security and loss prevention training toward recognizing risks and reducing store
+                            theft</li>
+                        <li>Trained and developed sales team associates in products, selling techniques and procedures
+                        </li>
+                        <li>Maintained organized, presentable merchandise to drive continuous sales</li>
+                        <li>Implemented up-selling strategies for recommending accessories and complementary purchases
+                        </li>
+                    </ul>
+                </span>
+            </div>
+
+            <div class="singlecolumn font">
+                <span class="" dependency="" style="display: inline;">
+                    <span class="" id=""><b>Sales Associate</b></span><span dependency="JTIT+JSTD|EDDT">, </span>
+                </span><span class="" dependency="" style="display: inline;">
+                    <span class="" id="" format="%m/%Y">06/2013</span><span dependency="JSTD+EDDT"> to
+                    </span><span class="" id="" format="%m/%Y">03/2015</span><br dependency="JSTD|EDDT">
+                </span>
+                <span class="" dependency="">
+                    <span class="" id="">Target</span><span dependency="COMP"><span dependency="JCIT|JSTA|JCNT"> –
+                        </span></span><span class=" " id="FIELD_JCIT">San
+                        Francisco</span><span dependency="JCIT+JSTA|JCNT">, </span><span class=" ">CA</span><span
+                        class="" id="FIELD_JCNT"></span><br dependency="">
+                </span>
+                <span class="" id="">
+                    <ul>
+                        <li>Maintained organized, presentable merchandise to drive continuous sales</li>
+                        <li>Organized racks and shelves to maintain store visual appeal, engage customers and promote
+                            merchandise
+                        </li>
+                        <li>Evaluated inventory and delivery needs, optimizing strategies to meet customer demands</li>
+                        <li>Analyzed and processed returns, assisting customers with finding alternative merchandise to
+                            meet needs
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+        
+        <div class="summary">
+            <h2 class="summary_heading">Education</h2>
+            <p class="summary_description">
+                Master of Science in Geothermal Physics | Florida State University, FL <br>
+                2015–2017 <br>
+                Bachelor of Science in Physics | University of Arkansas, AR <br>
+                2011–2015
+            </p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
